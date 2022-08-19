@@ -1,0 +1,240 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(#003265, 10%, #0f519e);
+}
+header,
+nav {
+  color: white;
+  text-align: center;
+}
+.logo-icon {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+}
+nav {
+  background: linear-gradient(#003265, 50%, #0f519e);
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.link-block {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 20px 10px;
+  transition: all 150ms ease-in;
+  font-size: 16px;
+  margin-top: 40px;
+}
+nav a:hover {
+  background: #0f519e;
+}
+.first-button-header,
+.second-button-header {
+  padding: 8px 60px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 10px;
+}
+.first-button-header {
+  box-shadow: 0px 5px 50px 1px rgb(250, 96, 1, 0.6);
+  background: #fa6001;
+}
+.first-button-header:hover {
+  background: linear-gradient(180deg, #f97a01, 50%, #fa6001);
+}
+.second-button-header {
+  background: #4e99e9;
+}
+.second-button-header:hover {
+  background: linear-gradient(180deg, #4e99e9, 50%, #448ede);
+}
+header h5 {
+  margin-top: 60px;
+  font-size: 18px;
+}
+header button {
+  padding: 8px 60px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 26px;
+  background: #4e99e9;
+  border: none;
+  cursor: pointer;
+}
+input {
+  display: none;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 240px;
+  font-size: 18px;
+  background-color: white;
+  color: #4e99e9;
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 0%;
+  transition: all 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+header p {
+  font-size: 18px;
+}
+
+main {
+  background: white;
+  margin: 25px 25px 70px 25px;
+  padding: 15px;
+  border: 1px solid #adacac;
+  border-radius: 20px;
+  text-align: center;
+  color: rgb(59, 59, 59);
+}
+
+main h3 {
+  font-size: 28px;
+}
+.first-button,
+.second-button {
+  padding: 10px 500px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  background: #fa6001;
+  font-size: 14px;
+  box-shadow: 0px 5px 20px 1px rgb(250, 96, 1, 0.6);
+}
+
+.second-button:hover {
+  background: linear-gradient(180deg, #f97a01, 50%, #fa6001);
+  box-shadow: 0px 5px 20px 1px rgb(250, 96, 1, 0.9);
+}
+.first-button:hover {
+  background: linear-gradient(180deg, #f97a01, 50%, #fa6001);
+  box-shadow: 0px 5px 20px 1px rgb(250, 96, 1, 0.9);
+  padding: 10px 550px;
+}
+.icon-up {
+  padding: 12px 14px;
+  background: #fa6001;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 10px;
+  position: sticky;
+  left: 1390px;
+  top: 600px;
+  cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
+main p {
+  margin: 20px;
+  line-height: 2;
+  font-size: 18px;
+}
+main h6 {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 13px;
+}
+main p,
+ul,
+ol,
+li {
+  text-align: left;
+}
+main img {
+  display: block;
+  margin: 0 auto;
+}
+.first-photo {
+  width: 700px;
+}
+main ul,
+ol {
+  line-height: 2;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.second-photo {
+  width: 700px;
+}
+.fourth-photo {
+  width: 700px;
+}
+.fifth-photo {
+  width: 700px;
+}
+main h2 {
+  font-size: 30px;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+footer {
+  background: #073a77;
+  margin: -20px;
+  color: white;
+  padding: 50px;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+  transition: all 150ms ease-in;
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.footer-link:hover,
+.last-block > a:hover {
+  color: #fa6001;
+}
+footer img {
+  width: 140px;
+  height: 140px;
+}
+.photo-footer-block {
+  margin-left: 60px;
+}
+footer p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-left: 50px;
+}
+.last-block {
+  text-align: center;
+}
+.last-block > a {
+  text-decoration: none;
+  color: white;
+  transition: all 150ms ease-in;
+}
